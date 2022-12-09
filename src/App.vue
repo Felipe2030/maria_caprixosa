@@ -1,17 +1,26 @@
 <template>
   <Header/>
-  <Hero />
+  <SessionHero />
+  <SessionProcurar/>
+  <SessionCarrosel/>
+  <SessionContato/>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import Hero from './components/Hero.vue'
+import SessionHero from './components/SessionHero.vue'
+import SessionProcurar from './components/SessionProcurar.vue'
+import SessionCarrosel from './components/SessionCarrosel.vue'
+import SessionContato from './components/SessionContato.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Hero
+    SessionHero,
+    SessionProcurar,
+    SessionCarrosel,
+    SessionContato
   }
 }
 </script>

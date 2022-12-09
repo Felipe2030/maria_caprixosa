@@ -1,34 +1,34 @@
 <template>
-  <footer>
-    <div class="container">
-    </div>
-  </footer>
+    <section>
+        <div class="container">
+        </div>
+    </section>
 </template>
-  
+
 <script>
 export default {
-    name: 'Footer',
+    name: 'SessionContato',
     props: {}
 }
 </script>
 
 <style scoped>
-    footer {
+    section {
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 103px;
+      background: #F0ECF1;
       max-width: 1920px;
-      background: #FFFFFF;
+      height: 833px;
       width: 100%;
     }
 
-    footer .container {
+    section .container {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       max-width: 1280px;
       width: 100%;
+      height: 100%;
     }
 </style>
-  
+    

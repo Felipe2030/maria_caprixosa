@@ -4,9 +4,23 @@
             <div class="hero_left">
                 <img src="../assets/perfil_principal.png" alt="imagem pessoa" />
                 <img src="../assets/ilustracao_casa.png" alt="imagem casa ilustrada" />
+                <img src="../assets/no.png" alt="face" />
             </div>
             <div class="hero_right">
-           
+                <img src="../assets/user_profile.png" alt="face" />
+                
+                <div class="title">
+                    <img src="../assets/person.png" alt="face">
+                    <span>Caprixo é o nome dela!</span>
+                </div>
+                <div class="descrition">
+                    <span>Agora com mais comodidade e agendamentos!</span>
+                    <span>Você faz sua agenda e se flexiona seus horários, com apenas um clique em saiba como, padronizamos sua agenda e horários, oferecemos confiabilidade e flexibilidade.</span>
+                    <span>Inscreva-se em nossa plataforma.</span>
+                </div>
+                <div class="link">
+                    <a href="#">SAIBA COMO</a>
+                </div>
             </div>
         </div>
     </section>
@@ -14,7 +28,7 @@
 
 <script>
 export default {
-    name: 'Hero',
+    name: 'SessionHero',
     props: {}
 }
 </script>
